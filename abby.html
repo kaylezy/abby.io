@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Abby</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+    .container div{
+        padding: 3px;
+        margin: 4rem;
+        
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   }
+   p{
+       text-align: justify;
+       margin-top: 20px;
+   }
+
+   img{
+       height: 500px;
+       width: 300px;
+   }
+
+   .box-1{
+    animation-name: box-1;
+    position: relative;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+   }
+   
+   @keyframes box-1{
+       0% {left: -300px}
+       100% {left: 50px}
+   }
+
+   .box-2{
+    animation-name: box-2;
+    position: relative;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+    transition-property: transform;
+    transition-duration: 2s;
+   }
+   
+   @keyframes box-2{
+       0% {top: -1000px}
+       100% {top: 10px}
+   }
+   
+   .box-2:hover{
+       transform: rotateY(360deg);
+   }
+
+ 
+</style>
+<body>
+    
+    <section class="container">
+        <div class="box-1">
+            <h1>GET WELL SOON BABY!!!</h1>    
+                <!-- <h4>Hi there!</h4>
+                <p>My name is <b>WULEMAT BAMIGBOPA</b> fondly called Bidemi. I hereby apply for the above named position, Having had over 8yrs experience in retail sales and marketing with  one of the top leading food company in  Nigeria.
+                   My experience as a retail sales representative as helped in promoting the company products and ensuring our brands are well merchandise at every point of purchase in my assigned route. Also, shoppers engagement is one of my key responsibility which has helped in my monthly sales growth.
+                   I would appreciate if my application is given a favorable consideration.
+                   Thank you and best regards. <br> 
+                   Abby
+                </p> -->
+        </div>
+
+        <div class="box-2">
+                <img src="P0.jpg" alt="">
+                <!-- <img src="P1.jpg" alt="">
+                <img src="P2.jpg" alt="">
+                <img src="P3.jpg" alt="">
+                <img src="P4.jpg" alt="">
+                <img src="P5.jpg" alt="">
+                <img src="P6.jpg" alt="">
+                <img src="P7.jpg" alt=""> -->
+        </div>
+        
+    </section>
+
+    <div id="man"></div>
+
+<script>
+    
+    window.alert ("YOU ARE WELCOME TO ABBY'S PAGE")
+
+</script>
+</body>
+</html>
